@@ -1,0 +1,14 @@
+How did viewing a diff between two versions of a file help you see the bug that was introduced?
+Diff shows me the lines that were added and those that were deleted in the file by showing a plus/minus symbol along margin.
+
+What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git,
+ vs having versions automatically saved, like Google Docs does?
+In case of manually choosing when to commit, you can decide when the changes you have made all 
+serve a single logical purpose. This way all of your commits will compile and it would also make sense to roll back to any
+one of them since an entire feature (or set of features) would get rolled back. In case of automatic saving, like in Google
+Docs, the pro is that versions get saved even in case you forgot to "commit" at that point. This is useful when you are preparing
+documents etc. In case of code, your code may not compile if the version is saved while you were in the middle of typing a line.
+As such going back to a version wouldn't make any logical sense and you have a lot of versions cluttered up without knowing, for eg,
+which one you should roll back to in order to remove just one feature you added recently.
+
+
